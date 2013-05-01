@@ -59,6 +59,7 @@ function processFile(data, lcov) {
 function readFiles(files) {
 	var lcov = {};
 	for(var i = 0, l = files.length; i < l; i++) {
+		process.stderr.write('FILE: ' + files[i]);
 		var file = files[i],
 			data = fs.readFileSync(file);
 		lcov = processFile(data.toString(), lcov);
