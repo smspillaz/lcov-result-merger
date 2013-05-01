@@ -84,6 +84,7 @@ function readFiles(files) {
 module.exports = function(files) {
 	var options = {};
 	glob(files, options, function(err, files) {
+		console.log(files);
 		if(err) {
 			throw new Error(err);
 		}
