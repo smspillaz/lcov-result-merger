@@ -1,0 +1,5 @@
+node-lcov-result-merger (1.01) unstable; urgency=low
+
+  * Import node-lcov-result-merger.
+
+ -- Sam Spilsbury <smspillaz@gmail.com>  Mon, 12 Jan 2015 11:34:07 +0800

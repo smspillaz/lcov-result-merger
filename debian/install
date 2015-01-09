@@ -1,0 +1,5 @@
+README.md /usr/lib/nodejs/lcov-result-merger/
+index.js /usr/lib/nodejs/lcov-result-merger/
+node_modules /usr/lib/nodejs/lcov-result-merger/
+package.json /usr/lib/nodejs/lcov-result-merger/
+bin/lcov-result-merger.js /usr/bin/lcov-result-merger

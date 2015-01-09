@@ -1,0 +1,13 @@
+Source: node-lcov-result-merger
+Section: libs
+Priority: optional
+Maintainer: Sam Spilsbury <smspillaz@gmail.com
+Build-Depends: debhelper (>= 9),
+               pkg-config
+Standards-Version: 3.9.1
+
+Package: node-lcov-result-merger
+Architecture: all
+Depends:
+ nodejs
+Description: Merges multiple lcov results into one

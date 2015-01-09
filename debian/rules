@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+#export DH_OPTIONS=-v
+
+%:
+	echo "target" \$@
+	dh \$@
+
+# dh_usrlocal disabled because we need to install into /usr/local because node has terrible manners.
+override_dh_usrlocal:
+override_dh_auto_build:
+override_dh_auto_test:
+override_dh_auto_clean:
+override_dh_auto_configure:
